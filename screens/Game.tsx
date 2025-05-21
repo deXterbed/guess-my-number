@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 function Game() {
   return (
-    <View style={styles.rootScreen}>
+    <View style={styles.screen}>
       <Text>Game</Text>
     </View>
   );
@@ -11,8 +11,8 @@ function Game() {
 export default Game;
 
 const styles = StyleSheet.create({
-  rootScreen: {
-    marginTop: 100,
+  screen: {
+    padding: 24,
     flex: 1,
   },
 });
